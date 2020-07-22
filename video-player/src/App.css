@@ -1,0 +1,77 @@
+div {
+  display: block;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="number"] {
+  background: none;
+  color: white;
+  width: 45px;
+  border: none;
+  margin-left: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 27px;
+  padding: 0px 3px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #cccccc;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.v-player-container {
+  justify-content: center;
+  width: 720px;
+  position: relative;
+}
+
+.v-player {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.v-control {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+  background-color: rgba(43,51,63,.7);
+  width: 100%;
+  bottom: 4px;
+  border-radius: 0 0 7px 7px;
+}
+
+.v-control-left {
+  margin-left: 15px;
+
+}
+
+.v-control-right {
+  color: white;
+  margin-right: 15px;
+  margin-top: 6px;
+}
