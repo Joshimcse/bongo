@@ -9,11 +9,11 @@ A Simple video player application with `Play`, `Forward`, `Rewind` functionaliti
 
 ## Quick Start 
 ```
-git clone --depth=1 https://github.com/joshimcse/project-name.git <PROJECT_NAME>
+git clone --depth=1 https://github.com/Joshimcse/bongo.git <PROJECT_NAME>
 
-cd <PROJECT_NAME>
+cd <PROJECT_NAME>/video-player
 ```
-> Run `npm install` in order to install dependencies. At this point you can run `npm start` to see the example app at http://localhost:3000.
+Run `npm install` in order to install dependencies. At this point you can run `npm start` to see the example app at http://localhost:3000.
 
 ## pseudocode of this program
 ```
