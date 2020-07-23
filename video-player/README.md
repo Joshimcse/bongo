@@ -6,7 +6,7 @@ A Simple video player application with `Play`, `Forward`, `Rewind` functionaliti
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/941f4aa8-c88b-4607-aaf0-32ab566e1a73/deploy-status)](https://app.netlify.com/sites/bongo-test/deploys)
 
-[![Live](https://img.shields.io/badge/live%20here%20for-live%20demo-373277.svg?style=for-the-badge)](https://bongo-test.netlify.app/)
+[![Live](https://img.shields.io/badge/click%20here%20for-live%20demo-373277.svg?style=for-the-badge)](https://bongo-test.netlify.app/)
 
 </div>
 
