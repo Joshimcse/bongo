@@ -1,3 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+
 div {
   display: block;
 }
@@ -28,13 +36,6 @@ button:hover {
   color: #cccccc;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .title {
   font-size: 32px;
   margin-bottom: 20px;
@@ -59,7 +60,7 @@ button:hover {
   opacity: 1;
   -webkit-transition: visibility 0.1s, opacity 0.1s;
   transition: visibility 0.1s, opacity 0.1s;
-  background-color: rgba(43,51,63,.7);
+  background-color: rgba(43, 51, 63, 0.7);
   width: 100%;
   bottom: 4px;
   border-radius: 0 0 7px 7px;
@@ -67,11 +68,10 @@ button:hover {
 
 .v-control-left {
   margin-left: 15px;
-
 }
 
 .v-control-right {
   color: white;
   margin-right: 15px;
-  margin-top: 6px;
+  margin-top: 11px;
 }

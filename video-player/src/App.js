@@ -46,7 +46,12 @@ function App() {
           onClick={togglePlay}
           onEnded={endedHandler}
         >
-          <source src={video} type="video/mp4" />
+          <source
+            src={video}
+            // In production build media/assets store to cloudinary
+            // src="https://res.cloudinary.com/joshimcse/video/upload/v1595520496/videos/sample_ctfdwv.mp4"
+            type="video/mp4"
+          />
         </video>
 
         <div className="v-control">

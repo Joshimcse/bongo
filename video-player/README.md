@@ -4,18 +4,24 @@
 
 A Simple video player application with `Play`, `Forward`, `Rewind` functionalities using React. In this player I'm using `Functional Design Patterns` to develop these three functionalities.
 
-[![Live](https://img.shields.io/badge/live%20here%20for-live%20demo-373277.svg?style=for-the-badge)](https://netlify)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/941f4aa8-c88b-4607-aaf0-32ab566e1a73/deploy-status)](https://app.netlify.com/sites/bongo-test/deploys)
+
+[![Live](https://img.shields.io/badge/live%20here%20for-live%20demo-373277.svg?style=for-the-badge)](https://bongo-test.netlify.app/)
+
 </div>
 
-## Quick Start 
+## Quick Start
+
 ```
 git clone --depth=1 https://github.com/Joshimcse/bongo.git <PROJECT_NAME>
 
 cd <PROJECT_NAME>/video-player
 ```
+
 Run `npm install` in order to install dependencies. At this point you can run `npm start` to see the example app at http://localhost:3000.
 
 ## pseudocode of this program
+
 ```
 //Initialize React State
 isPlay ← false
